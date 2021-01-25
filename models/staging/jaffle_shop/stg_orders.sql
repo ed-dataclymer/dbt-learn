@@ -7,7 +7,8 @@ with orders as (
         status
 
     from dbt_raw.jaffle_shop.orders
-
+    
 )
 
 select * from orders
+
